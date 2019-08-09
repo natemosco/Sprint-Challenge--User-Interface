@@ -82,24 +82,13 @@ p {
 	width:95%;
     justify-content:space-between;
     align-items: flex-end;
-    margin-bottom: 4%;
-    
-
-	
+    margin-bottom: 4%;	
 }
 nav a{
 	text-decoration:none;
 	color:black;
 	font-size: 14px;
 }
-.navigationBar img{
-    align: left;
-    
-}
-
-
-
-
 
 .top-content {
     display: flex;
