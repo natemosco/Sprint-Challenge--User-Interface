@@ -141,34 +141,34 @@ nav a{
     justify-content: center;
 }
 .box1{
-    background-color:#008080
+    background-color:teal;
 }
 .box2{
-    background-color:#FFD702
+    background-color:gold;
 }
 .box3{
-    background-color:#5F9DA0
+    background-color:cadetblue;
 }
 .box4{
-    background-color:#FF7E51
+    background-color:coral;
 }
 .box5{
-    background-color:#DC123C
+    background-color:crimson;
 }
 .box6{
-    background-color:#228B22
+    background-color:forestgreen;
 }
 .box7{
-    background-color:#9933CC
+    background-color:darkorchid;
 }
 .box8{
-    background-color:#FF69B4
+    background-color:hotpink;
 }
 .box9{
-    background-color:#4B0182
+    background-color:#indigo;
 }
 .box10{
-    background-color:#1C90FF
+    background-color:dodgerblue;
 }
 
 .bottom-content {
