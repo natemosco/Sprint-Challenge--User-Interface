@@ -90,18 +90,34 @@ nav a{
 	font-size: 14px;
 }
 
-.top-content {
+.top-content .main-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 0;
     border-bottom: 1px dashed black;
 }
+.top-content2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+    width:100%;
+    padding: 0 2.5%;
+}
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.main-content div{
+    width:44%;
+    border-bottom: 1px dashed black;
+}
+.main-content img{
+    width:100%;
 }
 
 .middle-content {
