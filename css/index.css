@@ -69,13 +69,43 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top:1.5%;
 }
+
+
+.navigationBar nav{
+	display:flex;
+	
+	width:95%;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-bottom: 4%;
+    
+
+	
+}
+nav a{
+	text-decoration:none;
+	color:black;
+	font-size: 14px;
+}
+.navigationBar img{
+    align: left;
+    
+}
+
+
+
+
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -101,15 +131,44 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background-color:#008080
+}
+.box2{
+    background-color:#FFD702
+}
+.box3{
+    background-color:#5F9DA0
+}
+.box4{
+    background-color:#FF7E51
+}
+.box5{
+    background-color:#DC123C
+}
+.box6{
+    background-color:#228B22
+}
+.box7{
+    background-color:#9933CC
+}
+.box8{
+    background-color:#FF69B4
+}
+.box9{
+    background-color:#4B0182
+}
+.box10{
+    background-color:#1C90FF
 }
 
 .bottom-content {
@@ -137,10 +196,11 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
