@@ -75,7 +75,10 @@ p {
     padding-top:1.5%;
 }
 
-
+.container-about-page{
+    width:90%;
+    margin-left:5%;
+}
 .navigationBar nav{
 	display:flex;
 	
@@ -89,24 +92,42 @@ nav a{
 	color:black;
 	font-size: 14px;
 }
+.banner-about{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.banner-about img {
+    width:100%;
+}
 
-.top-content .main-content {
+
+.top-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 0;
     border-bottom: 1px dashed black;
+    width:100%;
 }
 .top-content2{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+   
     margin: 20px 0;
     border-bottom: 1px dashed black;
     width:100%;
     padding: 0 2.5%;
 }
-
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin: 20px 0;
+    height: 750px;
+    width:100%;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -117,7 +138,7 @@ nav a{
     border-bottom: 1px dashed black;
 }
 .main-content img{
-    width:100%;
+    /* width:100%; */
 }
 
 .middle-content {
