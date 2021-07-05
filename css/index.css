@@ -69,20 +69,76 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top:1.5%;
 }
 
-.top-content {
+.container-about-page{
+    width:90%;
+    margin-left:5%;
+}
+.navigationBar nav{
+	display:flex;
+	
+	width:95%;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-bottom: 4%;	
+}
+nav a{
+	text-decoration:none;
+	color:black;
+	font-size: 14px;
+}
+.banner-about{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.banner-about img {
+    width:100%;
+}
+
+
+.top-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
+    width:100%;
 }
-
+.top-content2{
+    display: flex;
+    flex-direction: column;
+   
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+    width:100%;
+    padding: 0 2.5%;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin: 20px 0;
+    height: 750px;
+    width:100%;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.main-content div{
+    width:44%;
+    border-bottom: 1px dashed black;
+}
+.main-content img{
+    /* width:100%; */
 }
 
 .middle-content {
@@ -101,15 +157,44 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background-color:teal;
+}
+.box2{
+    background-color:gold;
+}
+.box3{
+    background-color:cadetblue;
+}
+.box4{
+    background-color:coral;
+}
+.box5{
+    background-color:crimson;
+}
+.box6{
+    background-color:forestgreen;
+}
+.box7{
+    background-color:darkorchid;
+}
+.box8{
+    background-color:hotpink;
+}
+.box9{
+    background-color:indigo;
+}
+.box10{
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -137,10 +222,11 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
